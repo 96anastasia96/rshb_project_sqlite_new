@@ -31,8 +31,8 @@ class Minigame(models.Model):
 
 class Player(models.Model):
     genders = (
-        ('Мужчина', 'Мужчина'),
-        ('Женщина', 'Женщина'),
+        ('Male', 'Мужчина'),
+        ('Female', 'Женщина'),
         (None, 'Не указан')
     )
 

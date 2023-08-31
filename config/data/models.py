@@ -63,8 +63,8 @@ class Player(models.Model):
                 self.credit = 0
             else:
                 raise NoCreditException('На вашем счёте недостаточно средств!')
-            self.save()
             bank.save()
+            self.save()
         else:
             raise NotEnoughFundsException('У вас нет кредита!')
 

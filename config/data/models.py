@@ -52,7 +52,7 @@ class Player(models.Model):
         self.credit += credit_amount
         self.own_money += credit_amount
         self.save()
-
+        return f'Вам одобрен кредит в размере {credit_amount} руб.'
 
     def return_credit(self):
         if self.credit:
@@ -65,6 +65,7 @@ class Player(models.Model):
                 raise NoCreditException('На вашем счёте недостаточно средств!')
             bank.save()
             self.save()
+            return f'Кредит возращён.'
         else:
             raise NotEnoughFundsException('У вас нет кредита!')
 

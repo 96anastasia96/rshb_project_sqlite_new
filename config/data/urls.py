@@ -4,4 +4,4 @@ from .views import PlayerViewSet
 
 router = SimpleRouter()
 
-router.register('api/player', PlayerViewSet)
+router.register('api/v1/player', PlayerViewSet)

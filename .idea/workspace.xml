@@ -5,13 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="75d6fb62-cd96-427e-8c8f-ee5321609fb3" name="Changes" comment="добавил allowed hosts">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/config/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/config/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/config/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/config/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/data/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/data/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/data/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/data/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/data/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/data/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/test_db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/config/test_db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,10 +40,13 @@
     "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "/home/ivanbal93/rshb_project_sqlite"
+    "last_opened_file_path": "/home/ivanbal93/rshb_project_sqlite/config/templates/photo"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/config/templates/photo" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/config" />
       <recent name="$PROJECT_DIR$/t" />

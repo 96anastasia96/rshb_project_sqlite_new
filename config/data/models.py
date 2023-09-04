@@ -46,9 +46,9 @@ class Player(models.Model):
     minigame = models.ManyToManyField(Minigame, through='PlayerMinigame')
 
     def get_credit(self, credit_amount=5000):
-        bank = Bank.objects.get(id=1)
-        bank.bank_account -= credit_amount
-        bank.save()
+        # bank = Bank.objects.get(id=1)
+        # bank.bank_account -= credit_amount
+        # bank.save()
         self.credit += credit_amount
         self.own_money += credit_amount
         self.save()
@@ -57,13 +57,13 @@ class Player(models.Model):
     def return_credit(self):
         if self.credit:
             if self.own_money >= self.credit:
-                bank = Bank.objects.get(id=1)
-                bank.bank_account += self.credit
+                # bank = Bank.objects.get(id=1)
+                # bank.bank_account += self.credit
                 self.own_money -= self.credit
                 self.credit = 0
             else:
                 raise NoCreditException('На вашем счёте недостаточно средств!')
-            bank.save()
+            # bank.save()
             self.save()
             return f'Кредит возращён.'
         else:

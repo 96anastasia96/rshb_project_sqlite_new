@@ -9,8 +9,8 @@ from drf_spectacular.views import extend_schema
 from drf_spectacular.utils import OpenApiExample
 from drf_spectacular.openapi import OpenApiResponse
 
-from .models import Player
-from .serializers import PlayerSerializer
+from .models import Player, Equipment, Harvest
+from .serializers import PlayerSerializer, EquipmentShopSerializer, HarvestShopSerializer
 
 
 # Create your views here.
@@ -174,3 +174,13 @@ class PlayerViewSet(ModelViewSet):
         instance = self.get_object()
         self.perform_destroy(instance)
         return Response(status=status.HTTP_204_NO_CONTENT)
+
+
+class EquipmentShopViewSet(ModelViewSet):
+    queryset = Equipment.objects.all()
+    serializer_class = EquipmentShopSerializer
+
+
+class HarvestShopViewSet(ModelViewSet):
+    queryset = Harvest.objects.all()
+    serializer_class = HarvestShopSerializer

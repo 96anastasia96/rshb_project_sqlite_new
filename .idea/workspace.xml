@@ -4,11 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="75d6fb62-cd96-427e-8c8f-ee5321609fb3" name="Changes" comment="добавил allowed hosts">
+    <list default="true" id="75d6fb62-cd96-427e-8c8f-ee5321609fb3" name="Changes" comment="небольшие правки">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_31_08_2023,_17_48_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_31_08_2023__17_48__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/config/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/config/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/config/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/config/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/data/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/data/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/data/migrations/0001_initial.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/config/data/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/data/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/data/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/data/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/data/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/data/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/data/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/data/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/test_db.sqlite3" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +46,7 @@
     "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "/home/ivanbal93/rshb_project_sqlite/config/templates/photo"
+    "last_opened_file_path": "/home/ivanbal93/rshb_project_sqlite"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -93,13 +99,22 @@
       <option name="project" value="LOCAL" />
       <updated>1693489702460</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="небольшие правки">
+      <option name="closed" value="true" />
+      <created>1693840564527</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1693840564527</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="обернул в Docker" />
     <MESSAGE value="небольшие корректировки в функции модели Player" />
     <MESSAGE value="добавил allowed hosts" />
-    <option name="LAST_COMMIT_MESSAGE" value="добавил allowed hosts" />
+    <MESSAGE value="небольшие правки" />
+    <option name="LAST_COMMIT_MESSAGE" value="небольшие правки" />
   </component>
 </project>

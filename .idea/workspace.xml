@@ -4,17 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="75d6fb62-cd96-427e-8c8f-ee5321609fb3" name="Changes" comment="небольшие правки">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_31_08_2023,_17_48_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_31_08_2023__17_48__Changes_.xml" beforeDir="false" />
+    <list default="true" id="75d6fb62-cd96-427e-8c8f-ee5321609fb3" name="Changes" comment="07.09 - 14.09">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/config/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/config/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/data/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/data/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/data/migrations/0001_initial.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/config/data/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/data/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/data/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/data/serializers.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/data/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/data/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/data/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/data/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/test_db.sqlite3" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,14 +38,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "/home/ivanbal93/rshb_project_sqlite"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/ivanbal93/rshb_project_sqlite&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/config/templates/photo" />
@@ -107,7 +104,15 @@
       <option name="project" value="LOCAL" />
       <updated>1693840564527</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="07.09 - 14.09">
+      <option name="closed" value="true" />
+      <created>1694626514098</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1694626514098</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -115,6 +120,7 @@
     <MESSAGE value="небольшие корректировки в функции модели Player" />
     <MESSAGE value="добавил allowed hosts" />
     <MESSAGE value="небольшие правки" />
-    <option name="LAST_COMMIT_MESSAGE" value="небольшие правки" />
+    <MESSAGE value="07.09 - 14.09" />
+    <option name="LAST_COMMIT_MESSAGE" value="07.09 - 14.09" />
   </component>
 </project>

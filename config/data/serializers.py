@@ -13,13 +13,13 @@ class PlayerSerializer(ModelSerializer):
         fields = '__all__'
 
 
-class EquipmentShopSerializer(ModelSerializer):
+class EquipmentSerializer(ModelSerializer):
     class Meta:
         model = Equipment
         fields = '__all__'
 
 
-class HarvestShopSerializer(ModelSerializer):
+class HarvestSerializer(ModelSerializer):
     class Meta:
         model = Harvest
         fields = '__all__'

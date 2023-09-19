@@ -23,6 +23,7 @@ from .views import main_page
 
 import data.urls
 
+
 urlpatterns = [
     path('', main_page),
     path('admin/', admin.site.urls),

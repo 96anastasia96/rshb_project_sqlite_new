@@ -11,7 +11,7 @@ class PlayerAdmin(admin.ModelAdmin):
         'gender',
         'own_money',
         'credit',
-        'bank',
+        'bank_id',
         'equipment_shop_id',
         'harvest_shop_id',
     )
@@ -23,7 +23,6 @@ class EquipmentAdmin(admin.ModelAdmin):
         'name',
         'description',
         'price',
-        'availability',
         'equipment_shop_id'
     )
 
@@ -34,8 +33,6 @@ class HarvestAdmin(admin.ModelAdmin):
         'name',
         'description',
         'price',
-        'availability',
-        'gen_modified',
         'harvest_shop_id',
     )
 

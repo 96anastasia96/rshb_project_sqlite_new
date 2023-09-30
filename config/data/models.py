@@ -80,6 +80,7 @@ class Player(models.Model):
         else:
             raise NotEnoughFundsException('У вас нет кредита!')
 
+#  Метод для обновления результатов у пользователя по ID
     def update_minigame_result(self, minigame_id, result):
         player_minigame = PlayerMinigame.objects.filter(player=self, minigame__id=minigame_id).first()
         if player_minigame:

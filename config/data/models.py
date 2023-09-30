@@ -80,6 +80,14 @@ class Player(models.Model):
         else:
             raise NotEnoughFundsException('У вас нет кредита!')
 
+    def update_minigame_result(self, minigame_id, result):
+        player_minigame = PlayerMinigame.objects.filter(player=self, minigame__id=minigame_id).first()
+        if player_minigame:
+            player_minigame.result = result
+            player_minigame.save()
+        else:
+            raise ValueError(f"Запись об игроке ={self.id} и мини-игра ={minigame_id} не найдены")
+
 
 class PlayerEquipment(models.Model):
     player_id = models.ForeignKey(Player, on_delete=models.CASCADE)
